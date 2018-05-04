@@ -79,7 +79,7 @@ echo "you can directly use msfvenom or msfconsole rather than ./msfvenom or ./ms
 clear
 echo "/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/"
 echo " YOUR metasploit-ramework IS DOWNLOADED SUCCESSFULLY YOU CAN US IT NOW FOR PENETRATION TESTING BY USING 
-cd metasploit-framework/ then ./msfconsole
+cd metasploit-framework/ then ./msfconsole "
 
 echo "/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/"
 sleep 5
@@ -88,7 +88,7 @@ echo "/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/"
 echo 
 clear
 echo "/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/"
-echo " SABRI ZAKI FROM ALPHA DZ TEAM WAS HEAR 
+echo " SABRI ZAKI FROM ALPHA DZ TEAM WAS HEAR "
 echo "/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/"
 echo
 echo "/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/"
