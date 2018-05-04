@@ -1,8 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
 clear
-echo "/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/"
+echo "/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/"
 echo " HELLO MY FRIENDS I AM SABRI ZAKI FROM ALGERIA I WRITE THIS SCRIPT TO HELP YOU IN THE PROCESS OF INSTALLING METASPLOIT FRAMEWORK AND I WISH TO US IT FOR GOOD AND AM NOT RESPONSIBLE FOR YOUR BADE USING AND THANKS "
-echo "/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/"
+echo "/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/"
 sleep 5
 cwd=$(pwd)
 name=$(basename "$0")
