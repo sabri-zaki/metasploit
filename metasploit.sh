@@ -30,26 +30,14 @@ mv $msfpath/metasploit-framework-$msfvar $msfpath/metasploit-framework
 cd $msfpath/metasploit-framework
 sed '/rbnacl/d' -i Gemfile.lock
 sed '/rbnacl/d' -i metasploit-framework.gemspec
+#sed 's|git ls-files|find -type f|' -i metasploit-framework.gemspec
 gem install bundler
-
-isNokogiri=$(gem list nokogiri -i)
-isGrpc=$(gem list grpc -i)
-
-sed 's|nokogiri (1.*)|nokogiri (1.8.0)|g' -i Gemfile.lock
-
-if [ $isNokogiri == "false" ];
-then
-      gem install nokogiri -v'1.8.0' -- --use-system-libraries
-else
-	echo "nokogiri already installed"
-fi
 
 cd $msfpath/metasploit-framework
 bundle install -j5
 
 echo "Gems installed"
 $PREFIX/bin/find -type f -executable -exec termux-fix-shebang \{\} \;
-rm ./modules/auxiliary/gather/http_pdf_authors.rb
 
 if [ -e $PATH/bin/msfconsole ];then
 	rm $PATH/bin/msfconsole
@@ -57,6 +45,7 @@ fi
 if [ -e $PATH/bin/msfvenom ];then
 	rm $PATH/bin/msfvenom
 fi
+
 ln -s $msfpath/metasploit-framework/msfconsole /data/data/com.termux/files/usr/bin/
 ln -s $msfpath/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/
 
