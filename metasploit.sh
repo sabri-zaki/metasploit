@@ -14,7 +14,7 @@ if [ $name != "metasploit.sh" ]; then
 	exit 
 fi
 
-msfvar=4.16.50
+msfvar=4.17.23
 msfpath='/data/data/com.termux/files/home'
 if [ -d "$msfpath/metasploit-framework" ]; then
 	echo "metasploit is installed"
